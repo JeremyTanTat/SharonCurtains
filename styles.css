@@ -759,6 +759,37 @@ h2 em {
   line-height: 1.55;
 }
 
+.contact-phone-list {
+  display: grid;
+  gap: 10px;
+  margin: 19px 0;
+}
+
+.contact-phone {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding-bottom: 9px;
+  border-bottom: 1px solid rgba(255, 254, 250, .17);
+  color: var(--white);
+  font-size: 10px;
+  text-decoration: none;
+}
+
+.contact-phone span {
+  color: rgba(255, 254, 250, .66);
+}
+
+.contact-phone strong {
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.contact-phone:hover strong {
+  color: #d4b998;
+}
+
 .warehouse-note {
   color: rgba(255, 254, 250, .58);
   font-size: 7px;
