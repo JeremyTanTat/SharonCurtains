@@ -42,20 +42,26 @@ a {
 }
 
 .development-notice {
-  position: sticky;
+  position: fixed;
   z-index: 20;
-  top: 0;
+  top: 12px;
+  left: 50%;
   display: flex;
+  width: max-content;
+  max-width: calc(100% - 32px);
   min-height: var(--development-notice-height);
   align-items: center;
   justify-content: center;
   gap: 16px;
   padding: 10px 20px;
+  border-radius: 8px;
   background: #ffd27c;
+  box-shadow: 0 5px 18px rgba(24, 31, 26, .28);
   color: #252921;
   font-size: 12px;
   line-height: 1.4;
   text-align: center;
+  transform: translateX(-50%);
 }
 
 .development-notice strong {
@@ -1054,6 +1060,7 @@ h2 em {
   }
 
   .development-notice {
+    top: 10px;
     flex-direction: column;
     gap: 2px;
     padding: 8px 12px;
