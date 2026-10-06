@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f8f6f1">
-  <meta name="description" content="Thoughtful curtains, blinds and window solutions for Singapore homes. Explore Sharon Curtains' BTO packages and recent installations.">
-  <title>Sharon Curtains | Made for the way you live</title>
+  <meta name="description" content="Thoughtful curtains, blinds and window solutions for Singapore homes. Explore Sharon Curtains' BTO packages and recent installations." data-i18n-content="page-description">
+  <title data-i18n="page-title">Sharon Curtains | Made for the way you live</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
@@ -13,12 +13,12 @@
   <script src="script.js" defer></script>
 </head>
 <body>
-  <aside class="development-notice" aria-label="Website status">
-    <strong>Website under development</strong>
-    <span>All content currently shown is for testing purposes only.</span>
+  <aside class="development-notice" aria-label="Website status" data-i18n-aria-label="website-status">
+    <strong data-i18n="development-title">Website under development</strong>
+    <span data-i18n="development-copy">All content currently shown is for testing purposes only.</span>
   </aside>
   <header class="site-header">
-    <a class="brand" href="#home" aria-label="Sharon Curtains home">
+    <a class="brand" href="#home" aria-label="Sharon Curtains home" data-i18n-aria-label="brand-home">
       <span class="brand-mark" aria-hidden="true">SC</span>
       <span class="brand-name">SHARON <span>CURTAINS</span></span>
     </a>
@@ -27,43 +27,47 @@
       <span></span><span></span>
     </button>
 
-    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
-      <a href="#collections">Curtains & blinds</a>
-      <a href="#packages">BTO packages</a>
-      <a href="#projects">Our work</a>
-      <a href="#contact">Contact</a>
-      <a class="nav-cta" href="#packages">Explore packages <span aria-hidden="true">↗</span></a>
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation" data-i18n-aria-label="main-navigation">
+      <a href="#collections" data-i18n="nav-collections">Curtains & blinds</a>
+      <a href="#packages" data-i18n="nav-packages">BTO packages</a>
+      <a href="#projects" data-i18n="nav-projects">Our work</a>
+      <a href="#contact" data-i18n="nav-contact">Contact</a>
+      <a class="nav-cta" href="#packages"><span data-i18n="nav-cta">Explore packages</span> <span aria-hidden="true">↗</span></a>
+      <div class="language-switch" role="group" aria-label="Select language" data-i18n-aria-label="language-group">
+        <button type="button" lang="en" data-language="en" aria-pressed="true">English</button>
+        <button type="button" lang="zh-CN" data-language="zh-CN" aria-pressed="false">简体中文</button>
+      </div>
     </nav>
   </header>
 
   <main>
     <section class="hero" id="home" aria-labelledby="hero-title">
-      <img class="hero-image" src="WhatsApp%20Image%202026-10-05%20at%2010.28.31%20(1).jpeg" alt="Soft white curtains framing a bright living room" fetchpriority="high">
+      <img class="hero-image" src="WhatsApp%20Image%202026-10-05%20at%2010.28.31%20(1).jpeg" alt="Soft white curtains framing a bright living room" data-i18n-alt="hero-image-alt" fetchpriority="high">
       <div class="hero-shade"></div>
       <div class="hero-content">
-        <p class="eyebrow hero-eyebrow"><span></span> Window styling, made personal</p>
-        <h1 id="hero-title">A softer light.<br>A more <em>you</em> home.</h1>
-        <p class="hero-copy">Curtains and blinds, thoughtfully chosen and fitted to make your space feel like yours.</p>
+        <p class="eyebrow hero-eyebrow"><span></span> <span data-i18n="hero-eyebrow">Window styling, made personal</span></p>
+        <h1 id="hero-title" data-i18n="hero-title">A softer light.<br>A more <em>you</em> home.</h1>
+        <p class="hero-copy" data-i18n="hero-copy">Curtains and blinds, thoughtfully chosen and fitted to make your space feel like yours.</p>
         <div class="hero-actions">
-          <a class="button button-light" href="#collections">Find your style <span aria-hidden="true">↓</span></a>
-          <a class="text-link hero-link" href="#projects">See our recent work <span aria-hidden="true">↗</span></a>
+          <a class="button button-light" href="#collections"><span data-i18n="hero-button">Find your style</span> <span aria-hidden="true">↓</span></a>
+          <a class="text-link hero-link" href="#projects"><span data-i18n="hero-link">See our recent work</span> <span aria-hidden="true">↗</span></a>
         </div>
       </div>
-      <div class="hero-caption"><span>01</span><span class="caption-line"></span><span>Everyday spaces, considered</span></div>
-      <a class="hero-scroll" href="#intro" aria-label="Scroll to discover"><span></span></a>
+      <div class="hero-caption"><span>01</span><span class="caption-line"></span><span data-i18n="hero-caption">Everyday spaces, considered</span></div>
+      <a class="hero-scroll" href="#intro" aria-label="Scroll to discover" data-i18n-aria-label="scroll-to-discover"><span></span></a>
     </section>
 
     <section class="intro section-wrap" id="intro">
-      <div class="intro-label"><span class="eyebrow">A little about us</span><span class="intro-rule"></span></div>
+      <div class="intro-label"><span class="eyebrow" data-i18n="intro-label">A little about us</span><span class="intro-rule"></span></div>
       <div class="intro-copy">
         <p class="eyebrow accent">Sharon Curtains Pte Ltd · Singapore</p>
-        <h2>Good mornings start<br>with <em>good light.</em></h2>
-        <p>From airy sheers to restful blackout curtains, we help you find the right finish for the way you live. Explore fabrics, styles and practical window solutions for every room.</p>
-        <a class="text-link" href="#collections">Get to know your options <span aria-hidden="true">↗</span></a>
+        <h2 data-i18n="intro-title">Good mornings start<br>with <em>good light.</em></h2>
+        <p data-i18n="intro-copy">From airy sheers to restful blackout curtains, we help you find the right finish for the way you live. Explore fabrics, styles and practical window solutions for every room.</p>
+        <a class="text-link" href="#collections"><span data-i18n="intro-link">Get to know your options</span> <span aria-hidden="true">↗</span></a>
       </div>
       <div class="intro-detail" aria-hidden="true">
         <span class="detail-number">01</span>
-        <span class="detail-label">Made for<br>your everyday</span>
+        <span class="detail-label" data-i18n="detail-label">Made for<br>your everyday</span>
         <span class="detail-stroke"></span>
       </div>
     </section>
@@ -71,69 +75,69 @@
     <section class="collections section-wrap" id="collections">
       <div class="section-heading">
         <div>
-          <p class="eyebrow accent">Considered for every room</p>
-          <h2>Find the right <em>feel.</em></h2>
+          <p class="eyebrow accent" data-i18n="collections-eyebrow">Considered for every room</p>
+          <h2 data-i18n="collections-title">Find the right <em>feel.</em></h2>
         </div>
-        <p class="section-intro">A window can change the whole mood of a room. Start with what matters to you—light, privacy, texture or a little of everything.</p>
+        <p class="section-intro" data-i18n="collections-intro">A window can change the whole mood of a room. Start with what matters to you—light, privacy, texture or a little of everything.</p>
       </div>
 
       <div class="collection-grid">
         <article class="collection-card collection-feature">
-          <img src="WhatsApp%20Image%202026-10-05%20at%2010.28.27.jpeg" alt="Full-length neutral curtains with a tailored pleat" loading="lazy">
+          <img src="WhatsApp%20Image%202026-10-05%20at%2010.28.27.jpeg" alt="Full-length neutral curtains with a tailored pleat" data-i18n-alt="curtain-image-alt" loading="lazy">
           <div class="card-overlay"></div>
           <div class="collection-info">
-            <span class="card-index">01 / CURTAINS</span>
-            <h3>Layer in softness.</h3>
-            <p>S-fold, memory fold, day & night, partition and curve-track styles.</p>
+            <span class="card-index" data-i18n="curtain-card-index">01 / CURTAINS</span>
+            <h3 data-i18n="curtain-card-title">Layer in softness.</h3>
+            <p data-i18n="curtain-card-copy">S-fold, memory fold, day & night, partition and curve-track styles.</p>
           </div>
         </article>
         <article class="collection-card">
-          <img src="WhatsApp%20Image%202026-10-05%20at%2010.28.33.jpeg" alt="Day-night blind filtering light in a family room" loading="lazy">
+          <img src="WhatsApp%20Image%202026-10-05%20at%2010.28.33.jpeg" alt="Day-night blind filtering light in a family room" data-i18n-alt="blind-image-alt" loading="lazy">
           <div class="card-overlay"></div>
           <div class="collection-info">
-            <span class="card-index">02 / BLINDS</span>
-            <h3>Set your own light.</h3>
-            <p>Roller, Venetian, Korean combi, wooden, rainbow and blackout options.</p>
+            <span class="card-index" data-i18n="blind-card-index">02 / BLINDS</span>
+            <h3 data-i18n="blind-card-title">Set your own light.</h3>
+            <p data-i18n="blind-card-copy">Roller, Venetian, Korean combi, wooden, rainbow and blackout options.</p>
           </div>
         </article>
         <article class="collection-card collection-wide">
-          <img src="WhatsApp%20Image%202026-10-05%20at%2010.28.31.jpeg" alt="Neutral curtain installation in a bright bedroom" loading="lazy">
+          <img src="WhatsApp%20Image%202026-10-05%20at%2010.28.31.jpeg" alt="Neutral curtain installation in a bright bedroom" data-i18n-alt="home-image-alt" loading="lazy">
           <div class="card-overlay"></div>
           <div class="collection-info">
-            <span class="card-index">03 / MORE FOR YOUR HOME</span>
-            <h3>Finishing touches, thoughtfully fitted.</h3>
-            <p>Motorised ziptracks, invisible grills, solar films and vinyl flooring.</p>
+            <span class="card-index" data-i18n="home-card-index">03 / MORE FOR YOUR HOME</span>
+            <h3 data-i18n="home-card-title">Finishing touches, thoughtfully fitted.</h3>
+            <p data-i18n="home-card-copy">Motorised ziptracks, invisible grills, solar films and vinyl flooring.</p>
           </div>
         </article>
       </div>
-      <p class="collection-note">Fabric selections include imports from Spain, Melbourne, Turkey, India and Taiwan.</p>
+      <p class="collection-note" data-i18n="collection-note">Fabric selections include imports from Spain, Melbourne, Turkey, India and Taiwan.</p>
     </section>
 
     <section class="packages" id="packages">
       <div class="package-inner section-wrap">
         <div class="package-heading">
-          <p class="eyebrow">A lovely place to begin</p>
-          <h2>New home?<br>Start with the <em>windows.</em></h2>
-          <p>Simple BTO curtain packages to help make moving in feel a little more complete.</p>
-          <a class="button button-outline" href="#contact">Ask about a package <span aria-hidden="true">↗</span></a>
+          <p class="eyebrow" data-i18n="packages-eyebrow">A lovely place to begin</p>
+          <h2 data-i18n="packages-title">New home?<br>Start with the <em>windows.</em></h2>
+          <p data-i18n="packages-copy">Simple BTO curtain packages to help make moving in feel a little more complete.</p>
+          <a class="button button-outline" href="#contact"><span data-i18n="packages-button">Ask about a package</span> <span aria-hidden="true">↗</span></a>
         </div>
-        <div class="price-list" aria-label="BTO curtain package starting prices">
+        <div class="price-list" aria-label="BTO curtain package starting prices" data-i18n-aria-label="price-list-label">
           <article class="price-row">
-            <span class="room-size">3-room flat</span>
-            <span class="price"><span>from</span> $599</span>
+            <span class="room-size" data-i18n="room-3">3-room flat</span>
+            <span class="price"><span data-i18n="price-from">from</span> $599</span>
             <span class="price-arrow" aria-hidden="true">↗</span>
           </article>
           <article class="price-row">
-            <span class="room-size">4-room flat</span>
-            <span class="price"><span>from</span> $699</span>
+            <span class="room-size" data-i18n="room-4">4-room flat</span>
+            <span class="price"><span data-i18n="price-from">from</span> $699</span>
             <span class="price-arrow" aria-hidden="true">↗</span>
           </article>
           <article class="price-row">
-            <span class="room-size">5-room flat</span>
-            <span class="price"><span>from</span> $899</span>
+            <span class="room-size" data-i18n="room-5">5-room flat</span>
+            <span class="price"><span data-i18n="price-from">from</span> $899</span>
             <span class="price-arrow" aria-hidden="true">↗</span>
           </article>
-          <p class="price-footnote">Packages include blackout fabrics, tracks, hooks and belts. No GST, as stated in our current package information. Prices are starting prices; please enquire for details.</p>
+          <p class="price-footnote" data-i18n="price-footnote">Packages include blackout fabrics, tracks, hooks and belts. No GST, as stated in our current package information. Prices are starting prices; please enquire for details.</p>
         </div>
       </div>
       <div class="package-decoration" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
@@ -142,42 +146,42 @@
     <section class="projects section-wrap" id="projects">
       <div class="section-heading project-heading">
         <div>
-          <p class="eyebrow accent">A glimpse into real homes</p>
-          <h2>Made to feel <em>at home.</em></h2>
+          <p class="eyebrow accent" data-i18n="projects-eyebrow">A glimpse into real homes</p>
+          <h2 data-i18n="projects-title">Made to feel <em>at home.</em></h2>
         </div>
-        <p class="section-intro">A few recent installations, captured just as they are—lived in, loved and ready for another day.</p>
+        <p class="section-intro" data-i18n="projects-intro">A few recent installations, captured just as they are—lived in, loved and ready for another day.</p>
       </div>
       <div class="project-grid">
         <figure class="project-photo project-photo-tall">
-          <img src="WhatsApp%20Image%202026-10-05%20at%2010.28.31%20(1).jpeg" alt="Sheer white curtains bringing gentle daylight into a living room" loading="lazy">
-          <figcaption><span>01</span> Light, layered living</figcaption>
+          <img src="WhatsApp%20Image%202026-10-05%20at%2010.28.31%20(1).jpeg" alt="Sheer white curtains bringing gentle daylight into a living room" data-i18n-alt="project-1-image-alt" loading="lazy">
+          <figcaption><span>01</span> <span data-i18n="project-1-caption">Light, layered living</span></figcaption>
         </figure>
         <figure class="project-photo">
-          <img src="WhatsApp%20Image%202026-10-05%20at%2010.28.27.jpeg" alt="Neutral blackout curtains fitted beside a bedroom window" loading="lazy">
-          <figcaption><span>02</span> A softer place to rest</figcaption>
+          <img src="WhatsApp%20Image%202026-10-05%20at%2010.28.27.jpeg" alt="Neutral blackout curtains fitted beside a bedroom window" data-i18n-alt="project-2-image-alt" loading="lazy">
+          <figcaption><span>02</span> <span data-i18n="project-2-caption">A softer place to rest</span></figcaption>
         </figure>
         <figure class="project-photo project-photo-offset">
-          <img src="WhatsApp%20Image%202026-10-05%20at%2010.28.33.jpeg" alt="Light-filtering blinds fitted in a child's room" loading="lazy">
-          <figcaption><span>03</span> Everyday light, just right</figcaption>
+          <img src="WhatsApp%20Image%202026-10-05%20at%2010.28.33.jpeg" alt="Light-filtering blinds fitted in a child's room" data-i18n-alt="project-3-image-alt" loading="lazy">
+          <figcaption><span>03</span> <span data-i18n="project-3-caption">Everyday light, just right</span></figcaption>
         </figure>
       </div>
       <div class="video-strip">
         <div class="video-copy">
-          <p class="eyebrow accent">A closer look</p>
-          <h3>See the details<br>come together.</h3>
-          <p>Short clips from recent curtain and blind installations.</p>
+          <p class="eyebrow accent" data-i18n="video-eyebrow">A closer look</p>
+          <h3 data-i18n="video-title">See the details<br>come together.</h3>
+          <p data-i18n="video-copy">Short clips from recent curtain and blind installations.</p>
         </div>
-        <video controls playsinline preload="none" poster="WhatsApp%20Image%202026-10-05%20at%2010.28.27.jpeg" aria-label="Video of a recent curtain installation">
+        <video controls playsinline preload="none" poster="WhatsApp%20Image%202026-10-05%20at%2010.28.27.jpeg" aria-label="Video of a recent curtain installation" data-i18n-aria-label="video-1-label">
           <source src="WhatsApp%20Video%202026-10-05%20at%2010.28.29.mp4" type="video/mp4">
-          Your browser does not support embedded videos.
+          <span data-i18n="video-unsupported">Your browser does not support embedded videos.</span>
         </video>
-        <video controls playsinline preload="none" poster="WhatsApp%20Image%202026-10-05%20at%2010.28.31.jpeg" aria-label="Video of another recent window installation">
+        <video controls playsinline preload="none" poster="WhatsApp%20Image%202026-10-05%20at%2010.28.31.jpeg" aria-label="Video of another recent window installation" data-i18n-aria-label="video-2-label">
           <source src="WhatsApp%20Video%202026-10-05%20at%2010.28.32.mp4" type="video/mp4">
-          Your browser does not support embedded videos.
+          <span data-i18n="video-unsupported">Your browser does not support embedded videos.</span>
         </video>
-        <video controls playsinline preload="none" poster="WhatsApp%20Image%202026-10-05%20at%2010.28.33.jpeg" aria-label="Video of a recent blind installation">
+        <video controls playsinline preload="none" poster="WhatsApp%20Image%202026-10-05%20at%2010.28.33.jpeg" aria-label="Video of a recent blind installation" data-i18n-aria-label="video-3-label">
           <source src="WhatsApp%20Video%202026-10-05%20at%2010.28.30.mp4" type="video/mp4">
-          Your browser does not support embedded videos.
+          <span data-i18n="video-unsupported">Your browser does not support embedded videos.</span>
         </video>
       </div>
     </section>
@@ -185,38 +189,38 @@
     <section class="contact" id="contact">
       <div class="contact-inner section-wrap">
         <div class="contact-copy">
-          <p class="eyebrow">Come say hello</p>
-          <h2>Let's make room<br>for <em>better light.</em></h2>
-          <p>For package details and enquiries, find Sharon Curtains at the address below. Please note this is a warehouse and is not open to the public.</p>
+          <p class="eyebrow" data-i18n="contact-eyebrow">Come say hello</p>
+          <h2 data-i18n="contact-title">Let's make room<br>for <em>better light.</em></h2>
+          <p data-i18n="contact-copy">For package details and enquiries, find Sharon Curtains at the address below. Please note this is a warehouse and is not open to the public.</p>
         </div>
         <div class="contact-card">
-          <span class="contact-label">Find us in Singapore</span>
+          <span class="contact-label" data-i18n="contact-label">Find us in Singapore</span>
           <address>992B Buangkok<br>#01-01, Singapore 999992</address>
-          <div class="contact-phone-list" aria-label="Call Sharon Curtains">
+          <div class="contact-phone-list" aria-label="Call Sharon Curtains" data-i18n-aria-label="phone-list-label">
             <a class="contact-phone" href="tel:+6599998888"><span>Sharon</span><strong>+65 9999 8888</strong></a>
             <a class="contact-phone" href="tel:+6599997777"><span>Alison</span><strong>+65 9999 7777</strong></a>
           </div>
-          <span class="warehouse-note">Warehouse · Not open to the public</span>
-          <a class="contact-map" href="https://www.google.com/maps/search/?api=1&amp;query=992B%20Buangkok%20Singapore%20999992" target="_blank" rel="noreferrer">View location on Google Maps <span aria-hidden="true">↗</span></a>
+          <span class="warehouse-note" data-i18n="warehouse-note">Warehouse · Not open to the public</span>
+          <a class="contact-map" href="https://www.google.com/maps/search/?api=1&amp;query=992B%20Buangkok%20Singapore%20999992" target="_blank" rel="noreferrer"><span data-i18n="contact-map">View location on Google Maps</span> <span aria-hidden="true">↗</span></a>
         </div>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <a class="brand footer-brand" href="#home" aria-label="Sharon Curtains, back to top">
+    <a class="brand footer-brand" href="#home" aria-label="Sharon Curtains, back to top" data-i18n-aria-label="footer-brand">
       <span class="brand-mark" aria-hidden="true">SC</span>
       <span class="brand-name">SHARON <span>CURTAINS</span></span>
     </a>
-    <p>Window styling for the way you live.</p>
-    <a class="back-top" href="#home">Back to top ↑</a>
+    <p data-i18n="footer-copy">Window styling for the way you live.</p>
+    <a class="back-top" href="#home" data-i18n="back-to-top">Back to top ↑</a>
     <span class="copyright">© <span id="year"></span> Sharon Curtains Pte Ltd</span>
   </footer>
-  <a class="whatsapp-button" href="https://wa.me/6596530345?text=Hi%20Sharon%2C%20I%20would%20like%20to%20know%20more%20about%20your%20curtains%20%26%20blinds..." target="_blank" rel="noopener noreferrer" aria-label="Chat with Sharon Curtains on WhatsApp">
+  <a class="whatsapp-button" href="https://wa.me/6596530345?text=Hi%20Sharon%2C%20I%20would%20like%20to%20know%20more%20about%20your%20curtains%20%26%20blinds..." target="_blank" rel="noopener noreferrer" aria-label="Chat with Sharon Curtains on WhatsApp" data-i18n-aria-label="whatsapp-label">
     <svg aria-hidden="true" viewBox="0 0 24 24" focusable="false">
       <path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.02-.24c1.12.37 2.33.57 3.57.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.24.2 2.45.57 3.57a1 1 0 0 1-.25 1.02z"/>
     </svg>
-    <span>Chat on WhatsApp</span>
+    <span data-i18n="whatsapp-copy">Chat on WhatsApp</span>
   </a>
 </body>
 </html>

@@ -10,7 +10,7 @@
   --white: #fffefa;
   --development-notice-height: 54px;
   --serif: "Playfair Display", Georgia, serif;
-  --sans: "DM Sans", "Segoe UI", sans-serif;
+  --sans: "DM Sans", "Noto Sans SC", "Microsoft YaHei", "Segoe UI", sans-serif;
 }
 
 * {
@@ -153,6 +153,34 @@ a {
   border-color: var(--green);
   background: var(--green);
   color: var(--white);
+}
+
+.language-switch {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  padding: 3px;
+  border: 1px solid rgba(37, 41, 33, .25);
+}
+
+.language-switch button {
+  padding: 8px 9px;
+  border: 0;
+  background: transparent;
+  color: var(--ink);
+  font: inherit;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.language-switch button[aria-pressed="true"] {
+  background: var(--green);
+  color: var(--white);
+}
+
+.language-switch button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
 }
 
 .nav-cta span,
@@ -970,6 +998,11 @@ h2 em {
     margin-top: 13px;
     padding: 12px 15px;
     border: 1px solid rgba(37, 41, 33, .34);
+  }
+
+  .language-switch {
+    align-self: flex-start;
+    margin-top: 13px;
   }
 
   .hero {
