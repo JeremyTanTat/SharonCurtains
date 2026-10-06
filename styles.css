@@ -132,7 +132,7 @@ a {
 }
 
 .site-nav > a {
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 500;
   text-decoration: none;
 }
@@ -169,7 +169,7 @@ a {
   background: transparent;
   color: var(--ink);
   font: inherit;
-  font-size: 10px;
+  font-size: 12px;
   cursor: pointer;
 }
 
@@ -183,9 +183,9 @@ a {
   outline-offset: 2px;
 }
 
-.nav-cta span,
-.text-link span,
-.button span {
+.nav-cta > span[aria-hidden="true"],
+.text-link > span[aria-hidden="true"],
+.button > span[aria-hidden="true"] {
   margin-left: 8px;
 }
 
@@ -229,7 +229,7 @@ a {
 
 .eyebrow {
   margin: 0;
-  font-size: 9px;
+  font-size: 10px;
   font-weight: 600;
   letter-spacing: 2px;
   line-height: 1.7;
@@ -242,7 +242,7 @@ a {
   gap: 11px;
 }
 
-.hero-eyebrow span {
+.hero-eyebrow > span:first-child {
   width: 25px;
   height: 1px;
   background: #ded3c2;
@@ -265,7 +265,7 @@ h2,
 
 .hero h1 {
   margin: 23px 0 18px;
-  font-size: clamp(49px, 7.3vw, 91px);
+  font-size: clamp(49px, 5.3vw, 68px);
   letter-spacing: -2.8px;
   line-height: 1.07;
 }
@@ -295,7 +295,7 @@ h2 em {
   align-items: center;
   justify-content: center;
   padding: 0 20px;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 600;
   text-decoration: none;
   transition: background .2s ease, color .2s ease, border-color .2s ease;
@@ -312,7 +312,7 @@ h2 em {
 
 .text-link {
   display: inline-block;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 600;
   text-decoration: none;
   transition: color .2s ease;
@@ -330,7 +330,7 @@ h2 em {
   align-items: center;
   gap: 13px;
   color: rgba(255, 254, 250, .9);
-  font-size: 9px;
+  font-size: 10px;
   letter-spacing: .7px;
 }
 
@@ -393,7 +393,7 @@ h2 em {
 }
 
 .intro-label .eyebrow {
-  font-size: 8px;
+  font-size: 9px;
   letter-spacing: 1.4px;
 }
 
@@ -441,7 +441,7 @@ h2 em {
 .detail-label {
   margin: 10px 0 22px;
   color: var(--muted);
-  font-size: 9px;
+  font-size: 10px;
   letter-spacing: .8px;
   line-height: 1.8;
   text-align: right;
@@ -477,7 +477,7 @@ h2 em {
   max-width: 320px;
   margin-bottom: 5px;
   color: var(--muted);
-  font-size: 11px;
+  font-size: 12px;
   line-height: 1.9;
 }
 
@@ -530,7 +530,7 @@ h2 em {
 }
 
 .card-index {
-  font-size: 8px;
+  font-size: 10px;
   font-weight: 600;
   letter-spacing: 1.7px;
 }
@@ -545,7 +545,7 @@ h2 em {
   max-width: 390px;
   margin-bottom: 0;
   color: rgba(255, 254, 250, .83);
-  font-size: 10px;
+  font-size: 11px;
   line-height: 1.7;
 }
 
@@ -565,7 +565,7 @@ h2 em {
 .collection-note {
   margin: 17px 0 0;
   color: var(--muted);
-  font-size: 9px;
+  font-size: 10px;
   line-height: 1.7;
 }
 
@@ -592,7 +592,11 @@ h2 em {
   color: #d4b998;
 }
 
-.package-heading h2,
+.package-heading h2 {
+  margin-top: 18px;
+  font-size: clamp(38px, 3.4vw, 43px);
+}
+
 .contact-copy h2 {
   margin-top: 18px;
   font-size: clamp(38px, 4.2vw, 52px);
@@ -602,7 +606,7 @@ h2 em {
   max-width: 335px;
   margin-bottom: 26px;
   color: rgba(255, 254, 250, .7);
-  font-size: 11px;
+  font-size: 12px;
   line-height: 1.8;
 }
 
@@ -647,7 +651,7 @@ h2 em {
   margin-right: 5px;
   color: rgba(255, 254, 250, .66);
   font-family: var(--sans);
-  font-size: 9px;
+  font-size: 10px;
 }
 
 .price-arrow {
@@ -659,7 +663,7 @@ h2 em {
   max-width: 430px;
   margin: 15px 0 0;
   color: rgba(255, 254, 250, .62);
-  font-size: 9px;
+  font-size: 10px;
   line-height: 1.8;
 }
 
@@ -728,10 +732,10 @@ h2 em {
   padding: 32px 17px 14px;
   background: linear-gradient(0deg, rgba(25, 29, 25, .62), transparent);
   color: var(--white);
-  font-size: 9px;
+  font-size: 10px;
 }
 
-.project-photo figcaption span {
+.project-photo figcaption > span:first-child {
   color: #e4c9a9;
   font-family: var(--serif);
   font-size: 14px;
@@ -757,7 +761,7 @@ h2 em {
   max-width: 220px;
   margin-bottom: 0;
   color: var(--muted);
-  font-size: 9px;
+  font-size: 10px;
   line-height: 1.7;
 }
 
@@ -790,7 +794,7 @@ h2 em {
   max-width: 400px;
   margin-bottom: 0;
   color: rgba(255, 254, 250, .67);
-  font-size: 10px;
+  font-size: 12px;
   line-height: 1.9;
 }
 
@@ -803,7 +807,7 @@ h2 em {
 .warehouse-note {
   display: block;
   color: #d4b998;
-  font-size: 8px;
+  font-size: 10px;
   font-weight: 600;
   letter-spacing: 1.5px;
   text-transform: uppercase;
@@ -831,7 +835,7 @@ h2 em {
   padding-bottom: 9px;
   border-bottom: 1px solid rgba(255, 254, 250, .17);
   color: var(--white);
-  font-size: 10px;
+  font-size: 11px;
   text-decoration: none;
 }
 
@@ -840,7 +844,7 @@ h2 em {
 }
 
 .contact-phone strong {
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 600;
 }
 
@@ -850,7 +854,7 @@ h2 em {
 
 .warehouse-note {
   color: rgba(255, 254, 250, .58);
-  font-size: 7px;
+  font-size: 9px;
   letter-spacing: 1px;
 }
 
@@ -858,11 +862,11 @@ h2 em {
   display: inline-block;
   margin-top: 25px;
   color: var(--white);
-  font-size: 9px;
+  font-size: 10px;
   text-decoration: none;
 }
 
-.contact-map span {
+.contact-map > span[aria-hidden="true"] {
   margin-left: 7px;
   color: #d4b998;
 }
@@ -889,7 +893,7 @@ h2 em {
 .back-top {
   margin-bottom: 0;
   color: var(--muted);
-  font-size: 8px;
+  font-size: 10px;
 }
 
 .back-top {
@@ -1151,7 +1155,7 @@ h2 em {
 
   .hero h1 {
     margin-top: 20px;
-    font-size: clamp(47px, 13vw, 70px);
+    font-size: clamp(38px, 10vw, 42px);
     letter-spacing: -2px;
   }
 
@@ -1193,11 +1197,17 @@ h2 em {
     margin-top: 0;
   }
 
-  .intro-copy h2,
+  .intro-copy h2 {
+    font-size: clamp(28px, 8.9vw, 33px);
+  }
+
   .section-heading h2,
-  .package-heading h2,
   .contact-copy h2 {
     font-size: 39px;
+  }
+
+  .package-heading h2 {
+    font-size: clamp(25px, 8vw, 30px);
   }
 
   .intro-copy > p:not(.eyebrow) {
@@ -1247,7 +1257,7 @@ h2 em {
   }
 
   .collection-note {
-    font-size: 8px;
+    font-size: 10px;
   }
 
   .package-inner {
@@ -1290,7 +1300,7 @@ h2 em {
     gap: 7px;
     padding-right: 9px;
     padding-left: 9px;
-    font-size: 8px;
+    font-size: 10px;
   }
 
   .video-strip {
@@ -1321,6 +1331,145 @@ h2 em {
 
   .copyright {
     grid-column: 1 / -1;
+  }
+}
+
+html[lang="zh-CN"] {
+  --sans: "Microsoft YaHei", "Noto Sans SC", "PingFang SC", "Segoe UI", sans-serif;
+  --serif: "Microsoft YaHei", "Noto Sans SC", "PingFang SC", "Segoe UI", sans-serif;
+}
+
+html[lang="zh-CN"] body,
+html[lang="zh-CN"] button {
+  font-family: var(--sans);
+}
+
+html[lang="zh-CN"] .eyebrow,
+html[lang="zh-CN"] .card-index,
+html[lang="zh-CN"] .intro-label,
+html[lang="zh-CN"] .detail-label,
+html[lang="zh-CN"] .contact-label,
+html[lang="zh-CN"] .warehouse-note,
+html[lang="zh-CN"] .hero-caption {
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+html[lang="zh-CN"] .hero h1 {
+  font-size: clamp(40px, 4vw, 54px);
+  letter-spacing: 0;
+  line-height: 1.25;
+}
+
+html[lang="zh-CN"] .intro-copy h2,
+html[lang="zh-CN"] .section-heading h2,
+html[lang="zh-CN"] .package-heading h2,
+html[lang="zh-CN"] .contact-copy h2 {
+  font-size: clamp(34px, 3.4vw, 42px);
+  letter-spacing: 0;
+  line-height: 1.35;
+}
+
+html[lang="zh-CN"] .collection-info h3 {
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 1.5;
+}
+
+html[lang="zh-CN"] .video-copy h3 {
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+html[lang="zh-CN"] .hero-copy,
+html[lang="zh-CN"] .intro-copy > p:not(.eyebrow),
+html[lang="zh-CN"] .section-intro,
+html[lang="zh-CN"] .collection-info p,
+html[lang="zh-CN"] .collection-note,
+html[lang="zh-CN"] .package-heading > p:not(.eyebrow),
+html[lang="zh-CN"] .price-footnote,
+html[lang="zh-CN"] .project-photo figcaption,
+html[lang="zh-CN"] .video-copy > p:last-child,
+html[lang="zh-CN"] .contact-copy > p:last-child {
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+html[lang="zh-CN"] .button,
+html[lang="zh-CN"] .text-link,
+html[lang="zh-CN"] .price-row,
+html[lang="zh-CN"] .contact-phone,
+html[lang="zh-CN"] .contact-map,
+html[lang="zh-CN"] .site-footer > p,
+html[lang="zh-CN"] .copyright,
+html[lang="zh-CN"] .back-top,
+html[lang="zh-CN"] .whatsapp-button {
+  font-size: 12px;
+}
+
+html[lang="zh-CN"] .contact-label {
+  font-size: 12px;
+}
+
+html[lang="zh-CN"] .warehouse-note {
+  font-size: 11px;
+}
+
+html[lang="zh-CN"] .detail-label {
+  font-size: 11px;
+}
+
+@media (max-width: 850px) {
+  html[lang="zh-CN"] .hero h1 {
+    font-size: clamp(34px, 7vw, 46px);
+  }
+
+  html[lang="zh-CN"] .intro-copy h2,
+  html[lang="zh-CN"] .section-heading h2,
+  html[lang="zh-CN"] .package-heading h2,
+  html[lang="zh-CN"] .contact-copy h2 {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 600px) {
+  html[lang="zh-CN"] .hero h1 {
+    font-size: clamp(29px, 8.2vw, 34px);
+  }
+
+  html[lang="zh-CN"] .intro-copy h2,
+  html[lang="zh-CN"] .section-heading h2,
+  html[lang="zh-CN"] .package-heading h2,
+  html[lang="zh-CN"] .contact-copy h2 {
+    font-size: 29px;
+  }
+
+  html[lang="zh-CN"] .collection-info h3,
+  html[lang="zh-CN"] .video-copy h3 {
+    font-size: 20px;
+  }
+
+  html[lang="zh-CN"] .development-notice {
+    font-size: 11px;
+  }
+
+  html[lang="zh-CN"] .development-notice strong {
+    font-size: 12px;
+  }
+
+  html[lang="zh-CN"] .contact-card address {
+    font-size: 21px;
+  }
+}
+
+@media (max-width: 360px) {
+  html[lang="en"] .hero-content {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  html[lang="en"] .hero h1 {
+    font-size: 34px;
   }
 }
 
